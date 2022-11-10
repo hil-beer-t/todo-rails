@@ -1,0 +1,18 @@
+$enable-gradients: true;
+
+@import "bootstrap";
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+main {
+  opacity: 0.9;
+}
+
+.bg-tokyo {
+  background-image: url("../../assets/images/bg-tokyo.jpg");
+  background-position: center;
+  background-size: cover;
+}

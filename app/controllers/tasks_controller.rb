@@ -22,7 +22,7 @@ class TasksController < ApplicationController
     respond_to do |format|
       if @task.save
         #redirect_to task_url(@task), notice: "Tarefa foi criada com sucesso." 
-        redirect_to tasks_path, notice: "Tarefa foi criada com sucesso." 
+        format.html { redirect_to tasks_path, notice: "Tarefa foi criada com sucesso." }
       else
         flash.now[:alert] = @task.errors.full_messages.to_sentence
         format.html { render :new, status: :unprocessable_entity }

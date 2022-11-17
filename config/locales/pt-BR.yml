@@ -7,4 +7,4 @@ pt-BR:
       task:
         description: 'Descrição'
         due_date: 'Prazo'
-        done: 'Finalizada ?'
+        done: 'Finalizada?'

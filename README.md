@@ -1,24 +1,31 @@
-# README
+# Simple Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![image](https://user-images.githubusercontent.com/52302576/202450122-71a07e04-0c30-4e1a-9a41-a46462e1d0ff.png)
 
-Things you may want to cover:
 
 * Ruby version
-
+  - `ruby 3.1.2p20 [x86_64-linux]`
 * System dependencies
-
+  - `Rails 6.1.7`
+  - `bundler 2.2.32`
+  - `postgres`
 * Configuration
 
+```bash
+bundler
+``` 
+
 * Database creation
+```bash
+db:create
+``` 
 
-* Database initialization
+* Database migration
+```bash
+db:migration
+``` 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Server instructions
+```bash
+rails s
+``` 
